@@ -1,0 +1,31 @@
+.MuiPaper-root {
+    width: 180px;
+}
+
+.MuiPaper-root .options {
+    color: #8B8B8B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 24px;
+    width: 24px;
+}
+
+.MuiPaper-root .options .option-toggle {
+    cursor: pointer;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+.countryWrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.countryWrapper::-webkit-scrollbar {
+    display: none;
+}
